@@ -1,0 +1,1729 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Dribble Responsive</title>
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+
+<body>
+
+  
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg  navbar-light bg-white">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </button>
+      <a class="navbar-brand" href="#"><h4>dribbble</h4> </a>
+
+
+      <!-- for responsive  -->
+
+      <ul class="navbar3-nav mr-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign In</a>
+        </li>
+
+      </ul>
+      <!-- ----------------------------------------------------- -->
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- input box for responsive-->
+
+        <div class="form-group-two has-search-two">
+          <span class="fa fa-search form-control-feedback-two"></span>
+          <input type="text" class="form-control-two" placeholder="Search...">
+        </div>
+
+        <!-- -------------------------------------------------------------- -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- nav dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Inspiration
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><i class="fa-solid fa-table-cells-large" style="color: purple;background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem; font-weight: 600; margin-top: -50px;"> Explore Design Work</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Trending Designs to inspire you</a></li>
+              <li><i class="fa-regular fa-heart" style="color: rgb(228, 25, 120);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">New & Noteworthy</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Up-and-Coming designers</a></li>
+              <li><i class="fa-regular fa-clone" style="color: rgb(62, 150, 223);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Playoffs</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Work Designers & Shifing on</a></li>
+              <li><i class="fa-solid fa-table-list" style="color: rgb(228, 133, 25);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Blog</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">interview,tutorials and more</a></li>
+              <li><i class="fa-solid fa-camera-retro" style="color: rgb(209, 54, 176);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Weekly warm-up</a></li>
+              <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Prompt to flex your design skills</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Find Work
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width: 380px;">
+            <li><i class="fa-solid fa-table-cells-large" style="color: purple;background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem; font-weight: 600; margin-top: -50px;">Job Board</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Find Your dream design Job</a></li>
+            <li><i class="fa-solid fa-mug-hot" style="color: rgb(228, 25, 120);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;"><h6 style="font-weight: 600;">Freelance Projects <span class="badge" style="background-color: rgb(218, 34, 141);">New</span></h6></span></a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">An exclusive list for contact work</a></li>
+            <hr>
+            <li><i class="fa-regular fa-clone" style="color: rgb(62, 150, 223);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Want freelance design Projects</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Get new leads in your inbox everyday</a></li>
+            <li><i class="fa-solid fa-table-list" style="color: rgb(228, 133, 25);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Personalize your profile with video</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Introduce yourself with new clients with Pitch </a></li>
+          </ul>
+        </li>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Learn Design
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="width: 450px;">
+            <li><i class="fa-solid fa-table-cells-large" style="color: purple;background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem; font-weight: 600; margin-top: -50px;"> Certified Product Design Course</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Learn product design in 16 weeks</a></li>
+            <li><i class="fa-solid fa-computer" style="color: rgb(228, 25, 120);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Introduction to UI Design</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Learn UI Design basics and Figma Fundamentals.</a></li>
+            <li><i class="fa-solid fa-gears" style="color: rgb(62, 150, 223);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Design Systems Course</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Scale design system in 15 weeks</a></li>
+            <li><i class="fa-solid fa-snowflake"  style="color: rgb(228, 133, 25);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Design Career Prep Courses</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Land your dream job! you'll have a career support <br> specialist to review your portfolio.</a></li>
+            <li><i class="fa-solid fa-video" style="color: rgb(209, 54, 176);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Browse our Courses and Workshops</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Level up your skills with our interactive courses <br> and workshops.</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Go Pro
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><i class="fa-solid fa-pen-nib" style="color: purple;background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem; font-weight: 600; margin-top: -50px;"> For Designers</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Portfolio creation made easy</a></li>
+            <li><i class="fa-solid fa-mug-hot" style="color: rgb(228, 25, 120);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">For Freelancers</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Fresh leads in your inbox everyday</a></li>
+            <li><i class="fa-solid fa-user-group" style="color: rgb(62, 150, 223);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">For Teams</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Build your team's pipeline or profile.</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Hire Designers
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><i class="fa-brands fa-react" style="color: purple;background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem; font-weight: 600; margin-top: -50px;"> Designers Search</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Find contact and hire designers</a></li>
+            <li><i class="fa-solid fa-plus" style="color: rgb(228, 25, 120);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">List my Job Opening</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">The #1 job board for crearives.</a></li>
+            <li><i class="fa-solid fa-plus" style="color: rgb(62, 150, 223);background-color: rgb(238, 235, 235); padding: 12px;border-radius: 20%; margin-top: 20px;"></i><a class="dropdown-item" href="#" style="font-size: 1rem;margin-top: 10px;font-weight: 600;margin-top: -50px;">Post a Freelance Project</a></li>
+            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">Board for freelance & contact work.</a></li>
+          </ul>
+        </li>
+
+        </ul>
+
+        <!-- nav search icon -->
+        <a href="" class="removed"><i class="fa-solid fa-magnifying-glass" style="margin-right: -20px; font-size: 18px;"></i></a>
+
+        <!-- nav end item -->
+        <ul class="navbar2-nav mr-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+
+        </ul>
+        <!-- nav button -->
+
+        <button class="btn " type="submit">Sign Up</button>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Background video -->
+  <section>
+    <div class="box">
+      <!-- Background - video -->
+      <video src="Assets/back-video.mp4" autoplay muted loop></video>
+      <!-- Button Overlay -->
+      <div class="slide-btn">
+        <button type="button" class="btn btn-primary">Discover</button>
+        <button type="button" class="btn btn-primary">Animation</button>
+        <button type="button" class="btn btn-primary">Branding</button>
+        <button type="button" class="btn btn-primary">Illustration</button>
+        <button type="button" class="btn btn-primary">Mobile</button>
+        <button type="button" class="btn btn-primary">Print</button>
+        <button type="button" class="btn btn-primary">Product Design</button>
+        <button type="button" class="btn btn-primary">Typography</button>
+        <button type="button" class="btn btn-primary">Web Design</button>
+      </div>
+
+      <!-- Video Content -->
+      <div class="content">
+
+        <h2>Explore the world’s leading <br> design portfolios</h2>
+        <p>Millions of designers and agencies around the world showcase their portfolio work  on Dribbble - the home
+          to the world’s best design and creative professionals.</p>
+        <!-- input box -->
+        <div class="form-group has-search">
+          <span class="fa fa-search form-control-feedback"></span>
+          <input type="text" class="form-control" placeholder="Search...">
+        </div>
+
+
+
+      </div>
+
+      <!-- Button Overlay -->
+      <div class="slide-btn2">
+        <button type="button" class="btns btn-primary">Trending searches</button>
+        <button type="button" class="btn btn-primary">landing page</button>
+        <button type="button" class="btn btn-primary">ios</button>
+        <button type="button" class="btn btn-primary">food</button>
+        <button type="button" class="btn btn-primary">landingpage</button>
+        <button type="button" class="btn btn-primary">uxdesign</button>
+        <button type="button" class="btn btn-primary">app design</button>
+
+      </div>
+
+
+
+    </div>
+  </section>
+
+ <!-- dropdown - 1st Row-->
+
+ <div class="row-btn" style="display: flex; justify-content: space-between;">
+
+  <div class="row-one">
+    <div class="btn-group">
+      <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Popular
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#" style="color: rgb(206, 60, 85);">Popular</a></li>
+
+        <li><a class="dropdown-item" href="#">New & Noteworthy</a></li>
+        
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">MarketPlace</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row-one" >
+    <div class="btn-group-two" >
+      <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" >
+        <i class="fa-solid fa-bars" style="padding-right: 10px;"></i>Filter
+      </button>
+
+
+      <!-- dropdown items -->
+      <ul class="dropdown-menu dropdown-menu-light" style="border: none; width:100% ; ">
+        <div class="row" style="padding: 0 100px;">
+          <div class="col-lg-3 col-md-6" >
+            <div class="form-group-three has-search-three abcd">
+                <label for="">Tags</label>
+                <span class="fa fa-search form-control-feedback-three"></span>
+                <input type="text" class="form-control-two">
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6" >
+            <div class="form-group-three has-search-three abcd" >
+              <label for="">Color</label>
+              <span class="fa fa-search form-control-feedback-three" style="color:  rgb(241, 237, 237);"><img src="assets/color.png" alt="" height="20px" style="margin-left: -20px;"></span>
+                <input type="text" class="form-control-two" placeholder="Enter Hex or Select" >
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6" >
+            <div class="form-group-three has-search-three abcd" >
+              <div class="dropdown">
+                <label for="">Timeframe</label>
+                <input class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                 <h6 style="margin-top: -30px; margin-left: 10px; ">Now<i class="fa-solid fa-angle-down" style="margin-left: 190px;"></i></h6>
+              </input>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="width: 260px; ">
+                  <li><a class="dropdown-item" href="#" style="color: rgb(224, 71, 96);">Now</a></li>
+                  <li><a class="dropdown-item" href="#">This Past Week</a></li>
+                  <li><a class="dropdown-item" href="#">This Past Month</a></li>
+                  <li><a class="dropdown-item" href="#">This Past Year</a></li>
+                  <li><a class="dropdown-item" href="#">ALL Time</a></li>
+                </ul>
+              </div>
+
+              </div>
+        </div>
+        <div class="col-lg-3 col-md-6" >
+            <div class="form-group-three has-search-three abcd" >
+              <div class="dropdown">
+                <label for="">Downloads</label>
+                <input class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <h6 style="margin-top: -30px; margin-left: 10px;">All Shots<i class="fa-solid fa-angle-down" style="margin-left: 165px; "></i></h6>
+              </input>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="width: 260px;">
+                  <li><a class="dropdown-item" href="#" style="color: rgb(224, 71, 96);">All Shots</a></li>
+                  <li><a class="dropdown-item" href="#" ><span><img src="assets/adobe.png" alt="" height="30px" style="margin-left: -25px; margin-right: 5px;"></span> Adobe Illustrator</a></li>
+                  <li><a class="dropdown-item" href="#"><span><img src="assets/photo.png" alt="" height="20px" style="margin-left: -20px; margin-right: 8px;"></span>  Adobe Photoshop</a></li>
+                  <li><a class="dropdown-item" href="#"><span><img src="assets/xd.png" alt="" height="20px" style="margin-left: -25px; margin-right: 4px;"></span> Adobe XD</a></li>
+                  <li><a class="dropdown-item" href="#"><span><img src="assets/figma.png" alt="" height="18px" style="margin-left: -18px; margin-right: 8px;"></span> Figma</a></li>
+                  <li><a class="dropdown-item" href="#"><span><img src="assets/studio.png" alt="" height="12px" style="margin-left: -17px; margin-right: 12px;"></span> Invision S</a></li>
+                  <li><a class="dropdown-item" href="#"><span><img src="assets/sketch (1).png" alt="" height="15px" style="margin-left: -18px; margin-right: 12px;"></span>Sketch</a></li>
+                </ul>
+              </div>
+              </div>
+        </div>
+        
+
+    </ul>
+      
+
+      
+      
+    </div>
+  </div>
+
+</div>
+
+  
+
+  <!-- row one(section) -->
+
+  <div class="row row-two" style="margin: 30px 48px;">
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="box-card">
+        <video src="Assets/c1.mp4" autoplay muted loop ></video>
+        <div class="overlay">
+          <div class="text">SCOOTA @ -sco.. <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/2.webp" alt="">
+          <h6>tubic Halo Lab.. <span class="badge ">TEAM</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c1.webp" width="100%"></img>
+        <div class="overlay">
+          <div class="text">Hotel Booking sk... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/17.webp" alt="">
+          <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c15.webp" width="100%"></img>
+        <div class="overlay">
+          <div class="text">Crypto Wallet - M...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/18.webp" alt="">
+          <h6>Squaresp... <span class="badge ">TEAM</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <video src="Assets/c3.mp4" autoplay muted loop ></video>
+        <div class="overlay">
+          <div class="text">Kiln Staking We..<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display">
+        <div class="flex-items-one">
+          <img src="Assets/19.webp" alt="">
+          <h6>Meddock Shift A... <span class="badge ">PRO</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+        </div>
+      </div>
+
+  </div>
+  </div>
+
+  <!-- row -5 -->
+
+  
+
+  <div class="row row-two" style="margin: 30px 48px;">
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c17.gif" width="100%"></img>
+        <div class="overlay">
+          <div class="text">Neon Game Co... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/5.webp" alt="">
+          <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <video src="Assets/c18.mp4" autoplay muted loop ></video>
+        <div class="overlay">
+          <div class="text">OklaHome Sign-in... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display">
+        <div class="flex-items-one">
+          <img src="Assets/6.webp" alt="">
+          <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c19.webp" width="100%"></img>
+        <div class="overlay">
+          <div class="text">Dual Tier Sidebar...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/3.webp" alt="">
+          <h6>Squaresp... <span class="badge ">TEAM</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c20.webp" width="100%"></img>
+        <div class="overlay">
+          <div class="text">Pet Tag App...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/1.webp" alt="">
+          <h6>Silgiri Loppurtu.. <span class="badge ">PRO</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+        </div>
+      </div>
+
+  </div>
+  </div>
+
+  <!-- row-6 -->
+
+
+  <div class="row row-two" style="margin: 30px 48px;">
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c21.webp" width="100%"></img>
+        <div class="overlay">
+          <div class="text">Dompektu - Wall... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/8.webp" alt="">
+          <h6>Nikoloz Narsia..<span class="badge ">PRO</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c22.webp" width="100%"></img>
+        <div class="overlay">
+          <div class="text">ChatBox Messa... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/3.webp" alt="">
+          <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <img src="Assets/c23.webp" width="100%"></img>
+        <div class="overlay">
+          <div class="text">Landing Page as...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display" style="margin-top: 10px;">
+        <div class="flex-items-one">
+          <img src="Assets/9.webp" alt="">
+          <h6>Design Squad... <span class="badge ">TEAM</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-6 col-12">
+      <div class="box-card">
+        <video src="Assets/c24.mp4" autoplay muted loop ></video>
+        <div class="overlay">
+          <div class="text">Facil Vitals Logo...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+        </div>
+      </div>
+      <div class="flex-display">
+        <div class="flex-items-one">
+          <img src="Assets/14.webp" alt="">
+          <h6>Milenious Shi...<span class="badge ">PRO</span></h6>
+        </div>
+
+        <div class="flex-items-two">
+          <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+          <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+        </div>
+      </div>
+
+  </div>
+  </div>
+
+
+    <!-- Row - Two -->
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <video src="Assets/c46.mp4" autoplay muted loop></video>
+          <div class="overlay">
+            <div class="text">Tourist Route Mo.. <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+          </div>
+        </div>
+        <div class="flex-display">
+          <div class="flex-items-one">
+            <img src="Assets/5.webp" alt="">
+            <h6>tubic Halo Lab.. <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c5.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Hyunite Finanace... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/8.webp" alt="">
+            <h6>Nikoloz Narsia..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>80</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>4.3k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c6.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Atoer - task man...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/9.webp" alt="">
+            <h6>Design Squad... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>63</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>3.5k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c8.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Montac Finanace ...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/11.webp" alt="">
+            <h6>Bob Ewing RH... <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>92</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>31.3k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+    <!-- row -3 -->
+
+    <div class="row row-two" style="margin: 20px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c9.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Solo Graphics st... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/12.webp" alt="">
+            <h6>AbuBorkarr.. <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c10.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Sellx - All in one... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/13.webp" alt="">
+            <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c11.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Mobile App Find...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/14.webp" alt="">
+            <h6>Squaresp... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c12.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Sana Solie - 6...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/15.webp" alt="">
+            <h6>Mick Champayn <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- Row - 4 -->
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c13.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">SCOOTA @ -sco.. <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/16.webp" alt="">
+            <h6>tubic Halo Lab.. <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c14.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Hotel Booking sk... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/17.webp" alt="">
+            <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c15.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Crypto Wallet - M...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/18.webp" alt="">
+            <h6>Squaresp... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <video src="Assets/c16.mp4" autoplay muted loop ></video>
+          <div class="overlay">
+            <div class="text">Kiln Staking We..<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display">
+          <div class="flex-items-one">
+            <img src="Assets/19.webp" alt="">
+            <h6>Meddock Shift A... <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- row -5 -->
+
+    
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c17.gif" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Neon Game Co... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/5.webp" alt="">
+            <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <video src="Assets/c18.mp4" autoplay muted loop ></video>
+          <div class="overlay">
+            <div class="text">OklaHome Sign-in... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display">
+          <div class="flex-items-one">
+            <img src="Assets/6.webp" alt="">
+            <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c19.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Dual Tier Sidebar...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c20.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Pet Tag App...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/1.webp" alt="">
+            <h6>Silgiri Loppurtu.. <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- row-6 -->
+
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c21.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Dompektu - Wall... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/8.webp" alt="">
+            <h6>Nikoloz Narsia..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c22.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">ChatBox Messa... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c23.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Landing Page as...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/9.webp" alt="">
+            <h6>Design Squad... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <video src="Assets/c24.mp4" autoplay muted loop ></video>
+          <div class="overlay">
+            <div class="text">Facil Vitals Logo...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display">
+          <div class="flex-items-one">
+            <img src="Assets/14.webp" alt="">
+            <h6>Milenious Shi...<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- row-7 -->
+
+    
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c25.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Mask Triot - All... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c26.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Ektiva - Travel M.. <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display " style="margin-top: 10px;"> 
+          <div class="flex-items-one">
+            <img src="Assets/8.webp" alt="">
+            <h6>Nikoloz Narsia..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c27.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Caneda Airlift - h...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/11.webp" alt="">
+            <h6>Bob Ewing RH... <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c8.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Pricing Page - Tl...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/9.webp" alt="">
+            <h6>Design Squad... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- row-8 -->
+
+    
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c28.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Shoulders of Gia... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/11.webp" alt="">
+            <h6>Bob Ewing RH... <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c29.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">A Little Cabin in... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/6.webp" alt="">
+            <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <video src="Assets/c30.mp4" autoplay muted loop ></video>
+          <div class="overlay">
+            <div class="text">Acid Motion Fio...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c40.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">G + Medical Allow...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display " style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/8.webp" alt="">
+            <h6>Nikoloz Narsia..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- row-9 -->
+
+   
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c33.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Genetics Thera... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c34.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Hyunite Finanace... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/9.webp" alt="">
+            <h6>Design Squad... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c35.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Grance Garden Side...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c36.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Blue Lily Mobile...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/11.webp" alt="">
+            <h6>Bob Ewing RH... <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- row-10 -->
+
+   
+
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c37.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Go Channel - Fix... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/12.webp" alt="">
+            <h6>simens sylo.. <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c31.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">A Logo Animation... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/6.webp" alt="">
+            <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c38.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">GuidePost Loft sh...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/13.webp" alt="">
+            <h6>Chikniso Dry... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c39.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">AGame Streaming Info..<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/1.webp" alt="">
+            <h6>Mick Champayn <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- row-11 -->
+
+    
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c40.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">NFT - Website La... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <video src="Assets/c41.mp4" autoplay muted loop ></video>
+          <div class="overlay">
+            <div class="text">Dashboard UI Co... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display">
+          <div class="flex-items-one">
+            <img src="Assets/6.webp" alt="">
+            <h6>Folio Illustration..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c42.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Portfolia Sign -G...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/9.webp" alt="">
+            <h6>Design Squad... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c8.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Bal Balan Live...<span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/11.webp" alt="">
+            <h6>Bob Ewing RH... <span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>87</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>14k</span></i>
+          </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- row-12 -->
+
+    
+    <div class="row row-two" style="margin: 30px 48px;">
+      <div class="col-lg-3 col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c43.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Hyunite Finanace... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/9.webp" alt="">
+            <h6>Design Squad... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>112</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>7.1k</span></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <video src="Assets/c47.mp4" autoplay muted loop ></video>
+          <div class="overlay">
+            <div class="text">ClimateBase - N... <span><i class="fa-solid fa-folder-plus"></i></span> <span><i class="fa-solid fa-heart"></i></span></div>
+
+          </div>
+        </div>
+        <div class="flex-display">
+          <div class="flex-items-one">
+            <img src="Assets/8.webp" alt="">
+            <h6>Nikoloz Narsia..<span class="badge ">PRO</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>186</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>40.6k</span></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-12">
+        <div class="box-card">
+          <img src="Assets/c45.webp" width="100%"></img>
+          <div class="overlay">
+            <div class="text">Start Your Free Trial</div>
+          </div>
+        </div>
+        <div class="flex-display" style="margin-top: 10px;">
+          <div class="flex-items-one">
+            <img src="Assets/3.webp" alt="">
+            <h6>Squaresp Ot... <span class="badge ">TEAM</span></h6>
+          </div>
+
+          <div class="flex-items-two">
+            <i class="fa-solid fa-heart" style="font-size: 13px;"><span>88</span></i>
+            <i class="fa-solid fa-eye" style="font-size: 13px;"><span>18.8k</span></i>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+    </div>
+  </div>
+
+  <!-- buttons  -->
+
+  <div class=" bottom-pink" style="margin-top: 50px; display: flex; justify-content: center;" >
+   
+   
+      <div class="row-btn-three">
+         <button type="button" class="btn" >Sign up to continue</button>
+      </div>
+   
+ 
+   
+       <div class="row-btn-three" style="margin-top: 10px;">
+          <button type="button" class=" btn-two" >or sign in</button>
+       </div>
+    
+
+  </div>
+  
+   
+ 
+  
+  
+  
+ 
+
+  <!-- fixed button - bottom to top - R.H.S -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style=" border: none;"  class="fixed"><i class="fa-solid fa-circle-up"></i></button>
+
+
+
+   <!-- footer -->
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row row-top">
+        <div class="col-lg-2 col-md-12 col-12" >
+
+          <h3 >dribbble</h3>
+          <p style="font-size:13px ; ">Dribbble is the world’s leading community for creatives to share, grow, and get hired.</p>
+          <div class="icons">
+            <i class="fa-solid fa-earth-americas"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+
+
+        </div>
+        <div class="col-lg-2 col-md-3 col-6">
+          <h6 >  For designers</h6>
+            <div class="link2">
+              <a href="">Go Pro</a>
+              <a href="">Explore Design Work</a>
+              <a href="">Design Blog</a>
+              <a href="">Overtime Podcast</a>
+              <a href="">Playoffs</a>
+              <a href="">Weekly Warm Up</a>
+              <a href="">Refer a Friend</a>
+              <a href="">Code of conduct</a>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6" >
+          <h6 > Hire Designers</h6>
+          <div class="link2" >
+            <a href="">Post a job opening</a>
+            <a href="">Post a freelance project</a>
+            <a href="">Search for designers</a>
+
+            <h6 style="margin-top: 20px;">Brands</h6>
+
+            <a href="">Advertise with us</a>
+          
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-6" >
+          <h6 >Company</h6>
+            <div class="link2" >
+              <a href="">About</a>
+              <a href="">Careers</a>
+              <a href="">Support</a>
+              <a href="">Media kit</a>
+              <a href="">Testimonials</a>
+              <a href="">API</a>
+              <a href="">Terms of service</a>
+              <a href="">Privacy policy</a>
+              <a href="">Cookie policy</a>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-6">
+          <h6  >Directories</h6>
+          <div class="link2" >
+            <a href="">Design jobs</a>
+            <a href="">Designers for hire</a>
+            <a href="">Freelance designers for hire</a>
+            <a href="">Tags</a>
+            <a href="">Places</a>
+
+            <h6 style="margin-top: 20px;">Design Assets</h6>
+
+            <a href="">Dribbble Marketplace</a>
+            <a href="">Creative Market</a>
+            <a href="">Fontspring</a>
+            <a href="">Font Squirrel</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2" >
+          <h6 >Design Resources </h6>
+          <div class="link2" >
+            <a href="">Freelancing</a>
+            <a href="">Design Hiring</a>
+            <a href="">Design Portfolio</a>
+            <a href="">Design Education</a>
+            <a href="">Creative Process</a>
+            <a href="">Design Industry Trends</a>
+          </div>
+        </div>
+
+        <hr style="margin-top: 20px;">
+
+        <!-- foot- bottom -->
+
+        <div class="bottom-row" >
+          <div class="txt">
+            <p>© 2023 Dribbble. All rights reserved.</p>
+          </div>
+          <div class="img-bottom">
+            <img src="Assets/footimg.png" alt="">
+          </div>
+          <div class="para">
+            <p><b>20,527,022</b>    shots dribbbled <span><img src="Assets/footimg.png" alt=""></span></p>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </footer> 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+        <script>
+          // Get the button
+          let mybutton = document.getElementById("myBtn");
+          
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function() {scrollFunction()};
+          
+          function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
+
+          <!-- nav icon -->
+
+          <script>
+            function myFunction(x) {
+              x.classList.toggle("change");
+            }
+            </script>
+
+
+</body>
+
+</html>
